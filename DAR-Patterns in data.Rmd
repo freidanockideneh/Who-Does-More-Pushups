@@ -34,21 +34,35 @@ Our Research Question is:
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-
+I used view pushups for my method. Linemen (skill) do more pushups than linebacks (line) because they run around more and they weight lighter than linebacks. 
 
 
 
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
+```{r}
+
+counts <- table(pushups$position)
+barplot(counts, main="Freida's Box Graph #1", 
+  	xlab="Number of Pushups")
+```
 
 
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
+```{r}
+
+qplot(main="Freida's qPlot Graph #1", position, weight, data = pushups)
+```
 
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+
+```
 
 
 # Inferential Results
