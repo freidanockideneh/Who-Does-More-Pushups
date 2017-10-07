@@ -1,7 +1,7 @@
 ---
 title: "Who does more pushups"
 author: "Freida Nockideneh"
-date: "September 30, 2017"
+date: "October 7, 2017"
 output: html_document
 ---
 
